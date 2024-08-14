@@ -1,0 +1,22 @@
+.main-banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+.banner-image {
+  width: 100%;
+  flex-shrink: 0;
+}
